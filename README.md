@@ -3,7 +3,7 @@ A hospital patient registration and appointment system based on Python+Django an
 
 Intro.
 
-In this hands-on tutorial, we will build an online medical appointment system using the Django framework. This project will cover core Django concepts including models, views, templates, forms, user authentication, appointment logic, and more. Through this project, you will learn how to create a practical Django application that enables users to register, log in, browse doctor's information, select an appointment time, complete an appointment, and more. This tutorial is suitable for beginners and also provides enough depth so that experienced developers can deepen their understanding of Django. 
+In this hands-on tutorial, we will build an online medical appointment system using the Django framework. This project will cover the core concepts of Django including models, views, templates, forms, user authentication, appointment logic, etc.
 
 Step 1: Create Django project and application 
 
