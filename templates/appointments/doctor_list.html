@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Appointment - Doctor List</title>
+</head>
+<body>
+    <h1>Doctor List</h1>
+    {% for doctor in doctors %}
+        <div>
+            <h2>{{ doctor.name }}</h2>
+            <p>Specialty: {{ doctor.specialty }}</p>
+            <p>{{ doctor.bio }}</p>
+            <a href="{% url 'appointments:appointment_list' %}">Make Appointment</a>
+        </div>
+    {% endfor %}
+</body>
+</html>

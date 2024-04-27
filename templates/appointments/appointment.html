@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Appointment - Appointment List</title>
+</head>
+<body>
+    <h1>Your Appointments</h1>
+    {% for appointment in appointments %}
+        <div>
+            <p>Doctor: {{ appointment.doctor.name }}</p>
+            <p>Date: {{ appointment.date }}</p>
+            <p>Time: {{ appointment.time }}</p>
+            <p>Status: {% if appointment.is_confirmed %} Confirmed {% else %} Pending {% endif %}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
